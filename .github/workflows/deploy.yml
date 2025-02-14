@@ -13,4 +13,4 @@ jobs:
         source venv/bin/activate
         pip install -r requirements.txt
     - name: Restart Service
-      run: sudo systemctl restart fastapi-app
+      run: sudo systemctl restart fastapi
